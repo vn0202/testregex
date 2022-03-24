@@ -9,52 +9,56 @@
 </head>
 <body>
     
-        <?php
+<?php
         $a= 'https://dantri.com.vn/the-gioi/nga-chuyen-chien-loi-pham-cho-luc-luong-ly-khai-ukraine-20220314194542428.htm';
           $string=  file_get_contents($a);
-          $getElementP= "/\<p\>([^\>]+)\<\/p\>/ui";
-          
-          preg_match_all($getElementP,$string,$out_put_p);
-          
-          $string2 = implode("",$out_put_p[1]);
-         
-           
-          $stringContainDate= '/[^\.\n]+(\d+\/\d+(\/\d+)*)([^\.]+((\d+\.\d+).+(\d+\.\d+))?[^\.]+\.|[^\.]+\.)/';
-        
-        
-           preg_match_all($stringContainDate,$string2, $result);
-           foreach($result[0] as $val)
-           {
-             echo "$val <br/>";
-           }
-           
-          
+          $pattern_p_date= "/\<p\>([^>]+([^p]>?)*[^>]+)\<\/p\>/ui";
+          $pattern_seq_date= '/[^\.\n\s][^\.]+(\d+\/\d+(\/\d+)*)+([^\.]+((\d+\.\d+).+(\d+\.\d+))?[^\.]+\.|[^\.]+\.)/';
+          $pattern_date= '/(\d+\/\d+(\/\d+)*)/';
+        preg_match_all($pattern_p_date,$string,$sequence_p);
+      $sequence_p= implode("",$sequence_p[0]);
+      $sequence_p=strip_tags($sequence_p);
+      preg_match_all($pattern_seq_date,$sequence_p,$sequence_date);
+    //   print_r($sequence_date[0]);
+      function parseData($arr,$pattern_date,$a)
 
+      {
+          $clength= count($arr);
+          $newArray=array();
+          for($i =0 ; $i < $clength; $i++)
+          {
+              $subArray = array();
+              preg_match_all($pattern_date,$arr[$i],$date);
+              $date= implode(",",$date[0]);
+              $subArray['date']= $date;
+              $subArray['url'] = $a;
+              $subArray['content'] = $arr[$i];
           
+          array_push($newArray,$subArray);
+          }
+          return $newArray;
+
+      }
+      $result= parseData($sequence_date[0],$pattern_date,$a);
+
+     echo file_put_contents('test.txt',json_encode($result,JSON_UNESCAPED_UNICODE),FILE_USE_INCLUDE_PATH);
+
+         
+        
+     
+      
+           
+       ?>  
+ 
+           
+          
+      
    
   
-       ?>  
+      
     <!-- <?php phpinfo();?> -->
       
 
-      
-       <!-- <?php
-       $text =  "
-       <div>
-       <h1> Thái Bình</h1>
-       <p>ngày 22/3/2020, Hôm nay thời tiết thật mát mẻ, không khí thật dễ chịu, tôi thích cảm giác này. Không gian rất mát mẻ. Từ 22/3 tôi sẽ trở thành 1 con người khác, nỗ lực hơn tôi của ngày hôm qua.Thật tuyệt vời khi bạn nỗ lực mỗi ngày.</p>
-
-        </div>
-        ";
-        $stringContainDate= '/([^\n\.]+)(\d+\/\d+(\/\d+)*)(.+(\d+\.+).+|[^\.\n]+(\.)?)/';
-        $string =strip_tags($text);
-        // echo $string;
-        preg_match_all($stringContainDate,$string,$result);
-        print_r($result[0]);
-
-        
-       ?> -->
-
-
+     
 </body>
 </html>
