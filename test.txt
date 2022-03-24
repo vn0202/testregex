@@ -5,24 +5,23 @@
     "content": "Binh sĩ Ukraine mang vũ khí chống tăng trong một cuộc diễn tập ở vùng Donetsk hôm 15/2/2022 (Ảnh: AP)."
   },
   {
-    "date": "14/3",
+    "date": "14/3/2022",
     "url": "https://dantri.com.vn/the-gioi/nga-chuyen-chien-loi-pham-cho-luc-luong-ly-khai-ukraine-20220314194542428.htm",
     "content": "\"Quân đội Nga đã chuyển giao các khí tài quân sự và vũ khí chiến lợi phẩm cho các đơn vị vũ trang của Cộng hòa Nhân dân Lugansk và Donetsk (vùng Donbass)\", Thông cáo của Bộ Quốc phòng Nga ngày 14/3 cho hay."
   },
   {
-    "date": "11/3",
+    "date": "11/3/2022",
     "url": "https://dantri.com.vn/the-gioi/nga-chuyen-chien-loi-pham-cho-luc-luong-ly-khai-ukraine-20220314194542428.htm",
     "content": "Trước đó, tại họp Hội đồng An ninh Nga hôm 11/3, Tổng thống Nga Vladimir Putin đã đồng ý với đề xuất của Bộ trưởng Quốc phòng Sergei Shoigu về việc trao các vũ khí mà Moscow thu được từ Kiev, đặc biệt là xe bọc thép và các hệ thống chống tăng, cho hai vùng ly khai ở Donbass, Đông Ukraine."
   },
   {
-    "date": "24/2",
+    "date": "24/2/2022",
     "url": "https://dantri.com.vn/the-gioi/nga-chuyen-chien-loi-pham-cho-luc-luong-ly-khai-ukraine-20220314194542428.htm",
     "content": "Nga mở chiến dịch quân sự ở Ukraine từ hôm 24/2 không lâu sau khi công nhận độc lập cho vùng Donetsk và Lugansk."
   },
   {
-    "date": "14/3",
+    "date": "14/3/2022",
     "url": "https://dantri.com.vn/the-gioi/nga-chuyen-chien-loi-pham-cho-luc-luong-ly-khai-ukraine-20220314194542428.htm",
     "content": "Phát ngôn viên Bộ Quốc phòng Nga Igor Konashenkov hôm nay 14/3 cho biết, Moscow đến nay đã vô hiệu hóa 3.920 mục tiêu quân sự của Ukraine, bao gồm 143 máy bay không người lái, 1.267 xe tăng và các phương tiện chiến đấu bọc thép khác, 124 bệ phóng tên lửa, 457 khẩu pháo dã chiến và súng cối, 1.028 xe quân sự đặc biệt."
   }
 ]
-    

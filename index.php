@@ -19,7 +19,9 @@
       $sequence_p= implode("",$sequence_p[0]);
       $sequence_p=strip_tags($sequence_p);
       preg_match_all($pattern_seq_date,$sequence_p,$sequence_date);
-    //   print_r($sequence_date[0]);
+    //get current year.
+    define('getYear',(string)getdate()['year']);
+    
       function parseData($arr,$pattern_date,$a)
 
       {
@@ -30,6 +32,12 @@
               $subArray = array();
               preg_match_all($pattern_date,$arr[$i],$date);
               $date= implode(",",$date[0]);
+              // check if string date having no year, add the current into string
+              if(preg_match("/\d+\/\d+\/\d+/",$date)!=1)
+              {
+                    $date=$date."/".getYear;
+              }
+              
               $subArray['date']= $date;
               $subArray['url'] = $a;
               $subArray['content'] = $arr[$i];
@@ -43,7 +51,7 @@
 
      echo file_put_contents('test.txt',json_encode($result,JSON_UNESCAPED_UNICODE),FILE_USE_INCLUDE_PATH);
 
-         
+        
         
      
       
