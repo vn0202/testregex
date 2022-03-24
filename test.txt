@@ -1,5 +1,35 @@
 [
   {
+    "date": "23/3/2022",
+    "url": "https://dantri.com.vn/the-gioi/nga-canh-bao-nguy-co-xung-dot-truc-tiep-voi-nato-20220324123314762.htm",
+    "content": "Trả lời phỏng vấn truyền thông ngày 23/3, người phát ngôn Điện Kremlin Dmitry Peskov cảnh báo sự nguy hiểm nếu NATO cử lực lượng gìn giữ hòa bình đến Ukraine."
+  },
+  {
+    "date": "23/3/2022",
+    "url": "https://dantri.com.vn/the-gioi/nga-canh-bao-nguy-co-xung-dot-truc-tiep-voi-nato-20220324123314762.htm",
+    "content": "Tuy vậy, Tổng thư ký Jens Stoltenberg hôm 23/3 một lần nữa tuyên bố, liên minh này sẽ không triển khai lực lượng đến Ukraine."
+  },
+  {
+    "date": "20/3/2022",
+    "url": "https://dantri.com.vn/the-gioi/nga-canh-bao-nguy-co-xung-dot-truc-tiep-voi-nato-20220324123314762.htm",
+    "content": "Đại sứ Mỹ tại Liên Hợp Quốc Linda Thomas-Greenfield hôm 20/3 cũng loại trừ khả năng Mỹ tham gia các hoạt động gìn giữ hòa bình tại Ukraine."
+  },
+  {
+    "date": "6/11/2020",
+    "url": "https://dantri.com.vn/xa-hoi/sang-611-khong-khi-nhieu-noi-o-bac-bo-o-nhiem-nang-20201106085509973.htm",
+    "content": "Sáng 6/11, không khí nhiều nơi ở khu vực phía Bắc ô nhiễm nặng, xuất hiện nhiều điểm ở mức rất có hại cho sức khỏe."
+  },
+  {
+    "date": "6/11/2020",
+    "url": "https://dantri.com.vn/xa-hoi/sang-611-khong-khi-nhieu-noi-o-bac-bo-o-nhiem-nang-20201106085509973.htm",
+    "content": "&nbsp;&nbsp;&nbsp;Đến 7 giờ 30 ngày 6/11, hệ thống quan trắc không khí của Tổng cục Môi trường ghi nhận hai điểm quan trắc tại&nbsp;Bắc Ninh ở mức màu tím, có chỉ số AQI ở mức 221 và 243 là UBND phường Đồng Nguyên (Từ Sơn), UBND xã Xuân Lâm (Thuận Thành)."
+  },
+  {
+    "date": "21/3/2022",
+    "url": "https://dantri.com.vn/the-gioi/khong-quan-nga-doi-chien-thuat-doi-pho-mua-ten-lua-ukraine-20220324152856030.htm",
+    "content": "Hôm 21/3, một quan chức quốc phòng cấp cao của Mỹ cho biết Nga đã xuất kích máy bay khoảng 300 lần trong 24 giờ trước đó, cao hơn mức trung bình khoảng 200 lần/ngày trong giai đoạn đầu của cuộc chiến."
+  },
+  {
     "date": "15/2/2022",
     "url": "https://dantri.com.vn/the-gioi/nga-chuyen-chien-loi-pham-cho-luc-luong-ly-khai-ukraine-20220314194542428.htm",
     "content": "Binh sĩ Ukraine mang vũ khí chống tăng trong một cuộc diễn tập ở vùng Donetsk hôm 15/2/2022 (Ảnh: AP)."
