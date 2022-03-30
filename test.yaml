@@ -1,0 +1,15 @@
+ sequenece: 
+   sequenece1:
+     date: 23/3/2022
+     url: https://dantri.com.vn/the-gioi/nga-canh-bao-nguy-co-xung-dot-truc-tiep-voi-nato-20220324123314762.htm
+     content: Trả lời phỏng vấn truyền thông ngày 23/3, người phát ngôn Điện Kremlin Dmitry Peskov cảnh báo sự nguy hiểm nếu NATO cử lực lượng gìn giữ hòa bình đến Ukraine.
+   sequenece2:
+     date: 23/3/2022
+     url: https://dantri.com.vn/the-gioi/nga-canh-bao-nguy-co-xung-dot-truc-tiep-voi-nato-20220324123314762.htm
+     content: Tuy vậy, Tổng thư ký Jens Stoltenberg hôm 23/3 một lần nữa tuyên bố, liên minh này sẽ không triển khai lực lượng đến Ukraine.
+   sequenece3:
+     date: 20/3/2022
+     url: https://dantri.com.vn/the-gioi/nga-canh-bao-nguy-co-xung-dot-truc-tiep-voi-nato-20220324123314762.htm
+     content: Đại sứ Mỹ tại Liên Hợp Quốc Linda Thomas-Greenfield hôm 20/3 cũng loại trừ khả năng Mỹ tham gia các hoạt động gìn giữ hòa bình tại Ukraine.
+     
+   
