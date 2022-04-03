@@ -1,7 +1,10 @@
 <?php
 include "getYear.php";
+// include "pattern_date.php";
+
 function parseData($arr,&$result,$pattern_string_date,$url)
 {
+  // global $pattern_string_date;
 if($arr)
 {
 $getYear = getYearFromUrl($url);
