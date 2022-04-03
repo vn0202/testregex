@@ -1,10 +1,11 @@
 <?php
-      $pattern_string_date= '/(\d+\/\d+(\/\d+)*)/';
    // function to get year from url:
       //get year which is the first 4 digits in \d\d\d....htm
+
+
 function getYearFromUrl($url)
       {
-        global $pattern_string_date;
+        
         $pattern_string_digit_in_url= '/(\d+)\.htm/';
 
         preg_match_all($pattern_string_digit_in_url,$url,$string_digit_in_url);
