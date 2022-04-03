@@ -1,8 +1,9 @@
 <?php
 include "parseData.php";
-function getSequenceP($arr)
+$pattern_string_date='/(\d+\/\d+(\/\d+)*)/';
+//create a closure and pass variable $pattern_string_dat by use keyword
+$getSequenceP= function ($arr) use ($pattern_string_date)
 {
-global $pattern_string_date;
 $pattern_seq_date= '/(|[^\s\.][^\.\n]+)(sáng|chiều|trưa|hôm\s*(nay)*|ngày|vào)\s(\d+\/\d+(\/\d+)*)+([^\.]+((\d+\.\d+).+(\d+\.\d+))?[^\.]+\.|[^\.]*\.)/ui';
 $pattern_tag_p= "/\<p[^\>]*\>([^>]+([^p]>?)*[^>]+)\<\/p\>/ui";
   $result=array();
